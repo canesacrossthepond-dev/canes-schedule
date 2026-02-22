@@ -68,6 +68,42 @@
   }
 
 
+
+
+  /* Dark logo fix - adds white outline for logos that are black on dark bg */
+  .team-logo.logo-dark {
+    filter: drop-shadow(0 0 3px rgba(255,255,255,0.9)) drop-shadow(0 0 6px rgba(255,255,255,0.6)) drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+  }
+
+  .game-card:hover .team-logo.logo-dark {
+    filter: drop-shadow(0 0 5px rgba(255,255,255,1)) drop-shadow(0 0 10px rgba(255,255,255,0.7)) drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+  }
+
+  /* TEAM LOGOS */
+  .team-logo {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 0 3px rgba(255,255,255,0.9)) drop-shadow(0 0 6px rgba(255,255,255,0.6)) drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .game-card:hover .team-logo {
+    transform: scale(1.12);
+    filter: drop-shadow(0 0 5px rgba(255,255,255,1)) drop-shadow(0 0 10px rgba(255,255,255,0.7)) drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+  }
+
+  .game-right {
+    padding: 14px 18px;
+    text-align: center;
+    min-width: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
   /* TEAM COLOUR HOVER */
   .game-card {
     position: relative;
@@ -639,7 +675,9 @@
         </div>
         <div class="game-venue">Stanford Stadium · Stanford, CA</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 1</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/24.png" alt="@ Stanford Cardinal" class="team-logo" />
+      <div class="game-number">GAME 1</div></div>
     </div>
 
     <div class="game-card" data-type="home nonconf">
@@ -659,7 +697,9 @@
         </div>
         <div class="game-venue">Hard Rock Stadium · Miami Gardens, FL</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 2</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/50.png" alt="vs Florida A&amp;M Rattlers" class="team-logo" />
+      <div class="game-number">GAME 2</div></div>
     </div>
 
     <div class="game-card" data-type="away acc">
@@ -679,7 +719,9 @@
         </div>
         <div class="game-venue">Truist Field · Winston-Salem, NC</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 3</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/154.png" alt="@ Wake Forest Demon Deacons" class="team-logo logo-dark" />
+      <div class="game-number">GAME 3</div></div>
     </div>
 
     <div class="game-card" data-type="home nonconf">
@@ -699,7 +741,9 @@
         </div>
         <div class="game-venue">Hard Rock Stadium · Miami Gardens, FL</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 4</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png" alt="vs Central Michigan Chippewas" class="team-logo" />
+      <div class="game-number">GAME 4</div></div>
     </div>
 
     <!-- OCTOBER -->
@@ -722,7 +766,9 @@
         </div>
         <div class="game-venue">Memorial Stadium · Clemson, SC</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 5</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/228.png" alt="@ Clemson Tigers" class="team-logo" />
+      <div class="game-number">GAME 5</div></div>
     </div>
 
     <div class="bye-card" data-type="bye">
@@ -748,7 +794,9 @@
         </div>
         <div class="game-venue">Hard Rock Stadium · Miami Gardens, FL</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 6</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/52.png" alt="vs Florida State Seminoles" class="team-logo" />
+      <div class="game-number">GAME 6</div></div>
     </div>
 
     <div class="game-card" data-type="home acc">
@@ -768,7 +816,9 @@
         </div>
         <div class="game-venue">Hard Rock Stadium · Miami Gardens, FL</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 7</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/221.png" alt="vs Pittsburgh Panthers" class="team-logo" />
+      <div class="game-number">GAME 7</div></div>
     </div>
 
     <div class="game-card" data-type="away acc">
@@ -788,7 +838,9 @@
         </div>
         <div class="game-venue">Kenan Memorial Stadium · Chapel Hill, NC</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 8</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/153.png" alt="@ North Carolina Tar Heels" class="team-logo" />
+      <div class="game-number">GAME 8</div></div>
     </div>
 
     <!-- NOVEMBER -->
@@ -812,7 +864,9 @@
         </div>
         <div class="game-venue">Notre Dame Stadium · South Bend, IN</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 9</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/87.png" alt="@ Notre Dame Fighting Irish" class="team-logo" />
+      <div class="game-number">GAME 9</div></div>
     </div>
 
     <div class="game-card" data-type="home acc">
@@ -832,7 +886,9 @@
         </div>
         <div class="game-venue">Hard Rock Stadium · Miami Gardens, FL</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 10</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/150.png" alt="vs Duke Blue Devils" class="team-logo" />
+      <div class="game-number">GAME 10</div></div>
     </div>
 
     <div class="game-card" data-type="home acc">
@@ -852,7 +908,9 @@
         </div>
         <div class="game-venue">Hard Rock Stadium · Miami Gardens, FL</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 11</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/259.png" alt="vs Virginia Tech Hokies" class="team-logo" />
+      <div class="game-number">GAME 11</div></div>
     </div>
 
     <div class="game-card" data-type="home acc">
@@ -872,7 +930,9 @@
         </div>
         <div class="game-venue">Hard Rock Stadium · Miami Gardens, FL</div>
       </div>
-      <div class="game-right"><div class="game-number">GAME 12</div></div>
+      <div class="game-right">
+      <img src="https://a.espncdn.com/i/teamlogos/ncaa/500/103.png" alt="vs Boston College Eagles" class="team-logo" />
+      <div class="game-number">GAME 12</div></div>
     </div>
 
   </div><!-- /schedule -->
