@@ -104,6 +104,25 @@
     gap: 6px;
   }
 
+
+  /* TV NETWORK BADGE */
+  .tv-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 2px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+
+  .tv-espn { background: #cc0000; color: #fff; }
+  .tv-abc { background: #000; color: #fff; border: 1px solid #333; }
+  .tv-accn { background: #003087; color: #fff; }
+  .tv-tba { background: #1e1e1e; color: #555; border: 1px solid #2a2a2a; }
+
   /* TEAM COLOUR HOVER */
   .game-card {
     position: relative;
@@ -668,7 +687,7 @@
       </div>
       <div class="game-info">
         <div class="game-matchup">@ Stanford Cardinal</div>
-        <div class="game-time"><span class="et-time"><span class="tba">Time TBA</span></span><span class="gmt-time" style="display:none"><span class="tba">Time TBA</span></span></div>
+        <div class="game-time"><span class="et-time">9:00pm ET <span class="tv-badge tv-espn">ESPN</span></span><span class="gmt-time" style="display:none">2:00am GMT (Sat) <span class="tv-badge tv-espn">ESPN</span></span></div>
         <div class="game-meta">
           <span class="location-badge away">AWAY</span>
           <span class="conf-badge">ACC</span>
@@ -856,7 +875,7 @@
       </div>
       <div class="game-info">
         <div class="game-matchup">@ Notre Dame Fighting Irish</div>
-        <div class="game-time"><span class="et-time"><span class="tba">Time TBA</span></span><span class="gmt-time" style="display:none"><span class="tba">Time TBA</span></span></div>
+        <div class="game-time"><span class="et-time">7:30pm ET</span><span class="gmt-time" style="display:none">12:30am GMT (Sun)</span></div>
         <div class="game-meta">
           <span class="location-badge away">AWAY</span>
           <span class="conf-badge">Non-Conference</span>
@@ -956,7 +975,7 @@
 
   // ── Game schedule with dates (TBD times default to noon ET kickoff) ────────
   const games = [
-    { date: new Date('2026-09-04T12:00:00-04:00'), label: '@ Stanford Cardinal' },
+    { date: new Date('2026-09-04T21:00:00-04:00'), label: '@ Stanford Cardinal' },
     { date: new Date('2026-09-10T12:00:00-04:00'), label: 'vs Florida A&M' },
     { date: new Date('2026-09-18T12:00:00-04:00'), label: '@ Wake Forest' },
     { date: new Date('2026-09-26T12:00:00-04:00'), label: 'vs Central Michigan' },
@@ -964,7 +983,7 @@
     { date: new Date('2026-10-17T12:00:00-04:00'), label: 'vs Florida State' },
     { date: new Date('2026-10-24T12:00:00-04:00'), label: 'vs Pittsburgh' },
     { date: new Date('2026-10-31T12:00:00-04:00'), label: '@ North Carolina' },
-    { date: new Date('2026-11-07T12:00:00-05:00'), label: '@ Notre Dame' },
+    { date: new Date('2026-11-07T19:30:00-05:00'), label: '@ Notre Dame' },
     { date: new Date('2026-11-14T12:00:00-05:00'), label: 'vs Duke' },
     { date: new Date('2026-11-20T12:00:00-05:00'), label: 'vs Virginia Tech' },
     { date: new Date('2026-11-28T12:00:00-05:00'), label: 'vs Boston College' },
