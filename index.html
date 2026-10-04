@@ -1120,7 +1120,9 @@
         if ((c.dataset.type || '').includes('away')) awayCount++;
       }
     });
-    document.getElementById('stat-total').textContent = total;
+    const wins = document.querySelectorAll('.game-card[win]').length;
+    const losses = document.querySelectorAll('.game-card[loss]').length;
+    document.getElementById('stat-total').textContent = `${wins}–${losses}`;
     document.getElementById('home-count').textContent = homeCount;
     document.getElementById('stat-away').textContent = awayCount;
   }
