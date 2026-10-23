@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "team": "Miami Hurricanes",
-  "updated": "19 October 2026",
+  "updated": "23 October 2026",
   "games": [
     {"kickoff":"2026-09-04T21:00:00-04:00","opponent":"Stanford Cardinal","home_away":"away","conference":"ACC","venue":"Stanford Stadium · Stanford, CA","opponent_logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/24.png","result":{"outcome":"W","miami":45,"opponent":6},"report_url":"https://canesacrossthepond.com/2026/09/05/miami-stanford-45-6-match-review-2026/"},
     {"kickoff":"2026-09-10T20:00:00-04:00","opponent":"Florida A&M Rattlers","home_away":"home","conference":"Non-Conference","venue":"Hard Rock Stadium · Miami Gardens, FL","opponent_logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/50.png","result":{"outcome":"W","miami":77,"opponent":7},"report_url":"https://canesacrossthepond.com/2026/09/11/miami-florida-am-77-7-match-report-2026/"},
@@ -10,7 +10,7 @@
     {"kickoff":"2026-10-03T19:30:00-04:00","opponent":"Clemson Tigers","home_away":"away","conference":"ACC","venue":"Memorial Stadium · Clemson, SC","opponent_logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/228.png","tv":"DAZN","result":{"outcome":"W","miami":41,"opponent":13},"report_url":"https://canesacrossthepond.com/2026/10/04/miami-clemson-41-13-match-report-2026/"},
     {"kickoff":"2026-10-10T12:00:00-04:00","bye":true},
     {"kickoff":"2026-10-17T19:00:00-04:00","opponent":"Florida State Seminoles","home_away":"home","conference":"ACC","venue":"Hard Rock Stadium · Miami Gardens, FL","opponent_logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/52.png","tv":"ESPN · DAZN","rivalry":"In-State Rivalry","result":{"outcome":"W","miami":43,"opponent":35},"report_url":"https://canesacrossthepond.com/2026/10/18/miami-florida-state-43-35-double-overtime-match-report-2026/"},
-    {"kickoff":"2026-10-24T12:00:00-04:00","opponent":"Pittsburgh Panthers","home_away":"home","conference":"ACC","venue":"Hard Rock Stadium · Miami Gardens, FL","opponent_logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/221.png"},
+    {"kickoff":"2026-10-24T12:00:00-04:00","opponent":"Pittsburgh Panthers","home_away":"home","conference":"ACC","venue":"Hard Rock Stadium · Miami Gardens, FL","opponent_logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/221.png","tv":"DAZN UK"},
     {"kickoff":"2026-10-31T19:30:00-04:00","opponent":"North Carolina Tar Heels","home_away":"away","conference":"ACC","venue":"Kenan Memorial Stadium · Chapel Hill, NC","opponent_logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/153.png"},
     {"kickoff":"2026-11-07T19:30:00-05:00","opponent":"Notre Dame Fighting Irish","home_away":"away","conference":"Non-Conference","venue":"Notre Dame Stadium · South Bend, IN","opponent_logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/87.png","tv":"UK TBC","rivalry":"Big Matchup"},
     {"kickoff":"2026-11-14T12:00:00-05:00","tba":true,"opponent":"Duke Blue Devils","home_away":"home","conference":"ACC","venue":"Hard Rock Stadium · Miami Gardens, FL","opponent_logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"},
