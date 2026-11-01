@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "team": "Miami Hurricanes",
-  "updated": "25 October 2026",
+  "updated": "1 November 2026",
   "games": [
     {
       "kickoff": "2026-09-04T21:00:00-04:00",
@@ -113,7 +113,12 @@
       "conference": "ACC",
       "venue": "Kenan Memorial Stadium · Chapel Hill, NC",
       "opponent_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-            "tv": "DAZN"
+      "result": {
+        "outcome": "W",
+        "miami": 38,
+        "opponent": 35
+      },
+      "report_url": "https://canesacrossthepond.com/2026/11/01/miami-north-carolina-38-35-match-report-2026/"
     },
     {
       "kickoff": "2026-11-07T19:30:00-05:00",
