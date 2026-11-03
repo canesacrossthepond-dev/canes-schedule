@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "team": "Miami Hurricanes",
-  "updated": "1 November 2026",
+  "updated": "3 November 2026",
   "games": [
     {
       "kickoff": "2026-09-04T21:00:00-04:00",
@@ -132,7 +132,6 @@
     },
     {
       "kickoff": "2026-11-14T12:00:00-05:00",
-      "tba": true,
       "opponent": "Duke Blue Devils",
       "home_away": "home",
       "conference": "ACC",
