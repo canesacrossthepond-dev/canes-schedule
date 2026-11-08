@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "team": "Miami Hurricanes",
-  "updated": "6 November 2026",
+  "updated": "8 November 2026",
   "games": [
     {
       "kickoff": "2026-09-04T21:00:00-04:00",
@@ -128,7 +128,12 @@
       "venue": "Notre Dame Stadium · South Bend, IN",
       "opponent_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
       "rivalry": "Big Matchup",
-      "tv": "Fighting Irish TV and Sky Sports NFL"
+      "result": {
+        "outcome": "L",
+        "miami": 24,
+        "opponent": 31
+      },
+      "report_url": "https://canesacrossthepond.com/2026/11/08/notre-dame-31-24-miami-2026-match-report/"
     },
     {
       "kickoff": "2026-11-14T12:00:00-05:00",
