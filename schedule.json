@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "team": "Miami Hurricanes",
-  "updated": "11 November 2026",
+  "updated": "14 November 2026",
   "games": [
     {
       "kickoff": "2026-09-04T21:00:00-04:00",
@@ -142,7 +142,11 @@
       "conference": "ACC",
       "venue": "Hard Rock Stadium · Miami Gardens, FL",
       "opponent_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-      "tv": "DAZN"
+      "result": {
+        "outcome": "W",
+        "miami": 36,
+        "opponent": 25
+      }
     },
     {
       "kickoff": "2026-11-20T12:00:00-05:00",
