@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "team": "Miami Hurricanes",
-  "updated": "15 November 2026",
+  "updated": "17 November 2026",
   "games": [
     {
       "kickoff": "2026-09-04T21:00:00-04:00",
@@ -160,13 +160,12 @@
     },
     {
       "kickoff": "2026-11-28T12:00:00-05:00",
-      "tba": true,
       "opponent": "Boston College Eagles",
       "home_away": "home",
       "conference": "ACC",
       "venue": "Hard Rock Stadium · Miami Gardens, FL",
       "opponent_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-      "tv": "Broadcaster - TBC"
+      "tv": "ESPN"
     }
   ]
 }
