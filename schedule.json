@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "team": "Miami Hurricanes",
-  "updated": "22 November 2026",
+  "updated": "23 November 2026",
   "games": [
     {
       "kickoff": "2026-09-04T21:00:00-04:00",
@@ -160,7 +160,8 @@
         "outcome": "W",
         "miami": 28,
         "opponent": 20
-      }
+      },
+      "report_url": "https://canesacrossthepond.com/2026/11/22/miami-28-20-virginia-tech-2026-match-report/"
     },
     {
       "kickoff": "2026-11-28T12:00:00-05:00",
